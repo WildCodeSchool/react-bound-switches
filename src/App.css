@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+  display: flex;
+  max-width: 80px;
+  margin: 2em auto;
+  justify-content: space-between;
+}
+
+button {
+  border: none;
+  padding: 5px 10px;
+  color: #fff;
+}
+
+.button-on {
+  background: #0a0;
+}
+
+.button-off {
+  background: #a00;
+}
