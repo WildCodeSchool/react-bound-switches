@@ -21,8 +21,8 @@ class App extends Component {
   render () {
     return (
       <div className="App">
-        <Checkbox active={this.state.active} />
-        <Button active={this.state.active} />
+        <Checkbox active={this.state.active} handleChange={this.handleChange} />
+        <Button active={this.state.active} handleChange={this.handleChange} />
       </div>
     );
   }

@@ -6,7 +6,7 @@ class Button extends Component {
     return (
       <button
         className={active ? 'button-on' : 'button-off'}
-        onClick={this.handleChange}
+        onClick={this.props.handleChange}
         type="button"
       >
         {active ? 'on' : 'off'}
